@@ -15,6 +15,10 @@ I'm currently working for [Code Climate](http://codeclimate.com).
 - [js-hcl-parser](https://github.com/vgsantoniazzi/js-hcl-parser) — Exported Golang library to parse HCL<>JSON in JavaScript.
 - [gps-job](https://github.com/vgsantoniazzi/gps-job) — Google Cloud Pub/Sub adapter and worker for ActiveJob.
 
+<!-- ## Open Source Contributions - Review and release
+ [thoughtbot/administrate](https://github.com/thoughtbot/administrate) — [vicramon/vimgenius](https://github.com/vicramon/vimgenius) — [elixir-lang/ex_doc](https://github.com/elixir-lang/ex_doc) — [elixir-lang/elixir](https://github.com/elixir-lang/elixir) — [absinthe-graphql/absinthe_plug](https://github.com/absinthe-graphql/absinthe_plug) — [fastlane-community/fastlane-plugin-ionic](https://github.com/fastlane-community/fastlane-plugin-ionic) -->
+
+
 ## External links
 
 - [Email](mailto:vgsantoniazzi@gmail.com) — E-mail me, I'll probably answer you in less than 15 mins.
