@@ -1,7 +1,29 @@
 ## Victor's website
 
-Access here: [vgsantoniazzi.com](http://vgsantoniazzi.com)
+[vgsantoniazzi.com](http://vgsantoniazzi.com)
 
-## Template by Reverie
+## Contributing
 
-Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now). [Access Reverie Repository](https://github.com/amitmerchant1990/reverie)
+I :heart: Open source!
+
+Before sending a pull request: Please, format the source code
+
+```
+bin/format
+```
+
+[Follow github guides for forking a project](https://guides.github.com/activities/forking/)
+
+[Follow github guides for contributing open source](https://guides.github.com/activities/contributing-to-open-source/#contributing)
+
+[Squash pull request into a single commit](http://eli.thegreenplace.net/2014/02/19/squashing-github-pull-requests-into-a-single-commit/)
+
+## Code status
+
+[![Build Status](https://travis-ci.org/vgsantoniazzi/tiny-lang.svg?branch=master)](https://travis-ci.org/vgsantoniazzi/tiny-lang)
+
+## License
+
+This is released under the [MIT license](http://opensource.org/licenses/MIT).
+
+Feel free to use it!

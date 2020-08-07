@@ -25,7 +25,7 @@ body {
   font-family: "Scope One";
   color: #404040;
   line-height: 1.7;
-  font-size: 137%;
+  font-size: 125%;
   height: 100%;
   overflow-y: scroll;
 }
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
+  line-height: 1.8;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 137%;
   a {
     color: inherit;
   }
@@ -347,7 +347,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -383,6 +383,10 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+
+  .post-title {
+    text-decoration: none;
   }
 }
 
@@ -429,19 +433,10 @@ body:after {
     z-index: 1000;
 }
 
-.post h1{
-  font-weight: 100;
+.post h1 {
+  font-weight: 500;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
-  line-height: 1.2;
-  text-decoration: underline;
-}
-
-.page h1{
-  font-weight: bold;
-  font-kerning: auto;
-  font-feature-settings: "kern","liga","dlig","hlig","cswh";
-  line-height: 1.2;
 }
 
 .author_title{
