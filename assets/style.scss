@@ -236,6 +236,17 @@ p > img {
     clear: both;
 }
 
+.picture {
+  float: left;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.about {
+  margin-left: 250px;
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
