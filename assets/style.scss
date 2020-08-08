@@ -236,15 +236,20 @@ p > img {
     clear: both;
 }
 
-.picture {
-  float: left;
-  img {
-    border-radius: 50%;
+@media only screen and (min-width: 768px) {
+  .picture {
+    float: left;
+  }
+
+  .about {
+    margin-left: 250px;
   }
 }
 
-.about {
-  margin-left: 250px;
+.picture {
+  img {
+    border-radius: 50%;
+  }
 }
 
 /*********************/
