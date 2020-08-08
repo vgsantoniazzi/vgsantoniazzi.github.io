@@ -56,4 +56,4 @@ I really hope that this mini-micro-minimalist-series has helped you get a little
 Currently, programming languages have more features, smarter algorithms. We have languages that are interpreted and compiled, curly, and thus, things get more interesting.
 
 ## Take A Look
-A lot of new programming languages are built on top o [LLVM](https://llvm.org/). Just. Take. A. Look. Next time, I'll write, probably will be about this.
+A lot of new programming languages are built on top o [LLVM](https://llvm.org/). Next time, I'll build a version of tiny-lang on top of LLVM with Just In Time compiler.

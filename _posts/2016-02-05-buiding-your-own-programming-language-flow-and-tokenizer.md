@@ -5,9 +5,9 @@ categories: [compilers, interpreters, programming-languages, c, c++]
 ---
 
 
-When dealing with the flow, compilers and interpreters are different. In the case of an interpreted language, operations are performed until the declarations (assignments, control structures, data output, etc.) are finished or some type of error is generated. i
+When dealing with the flow, compilers and interpreters are different. In the case of an interpreted language, operations are performed until the declarations (assignments, control structures, data output, etc.) are finished or some type of error is generated.
 
-Analyze the statement and then execute it. A compiler, on the other hand, transforms all the code into assembly and then executes it. Of course, not all languages are like that, we have some non-standard cases.
+Interpreters analyzes the statement and then execute it. A compiler, on the other hand, transforms all the code into assembly and then executes it. Of course, not all languages are like that, we have some non-standard cases. Like JIT compilers.
 
 > We will pass through how an interpreter works. If you want read the code before, just check the [tiny-lang repository on Github](https://github.com/vgsantoniazzi/tiny-lang).
 
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
     statement = Statement::GetNext(program);
     statement->GenerateCode();
   }
-  program->Execute();
+  program->Dump();
   return 0;
 }
 ```
@@ -75,7 +75,7 @@ If a lexical analyzer passes both code snippets, it will return the following le
 We analyzed the entire code snippet correctly. The Tokenizer of that link is a very simple example of how to do this.
 
 ## Variables
-To finish the flow and be able to see something minimal functional already in this post, we need to be able to have variables and update their values ​​(a variable always exists!! But if it hasn’t been set yet, it is null). We will be able to analyze a piece of code and save a variable.
+To finish the flow and be able to see something functional already in this post, we need to be able to have variables and update their values ​​(a variable always exists!! But if it hasn’t been set yet, it is null). We will be able to analyze a piece of code and save a variable.
 
 We need a singleton class to store these variables. Let’s put its lifetime as the whole application. At the moment we will not have variables by scope. That way we have a complete flow, without worrying too much about details. We won’t worry about typing yet.
 An C ++ implementation [would look something like this](https://github.com/vgsantoniazzi/tiny-lang/blob/master/src/variables/Variables.cpp).

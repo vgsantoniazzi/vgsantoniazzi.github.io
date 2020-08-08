@@ -53,12 +53,12 @@ The `-S` argument generates the assembly without executing, open the `example.s`
 ## Compiled programming languages
 A compiled language has to know which environment it is running with. Processor, operating system, 32 or 64 bits, all matters! Currently, the great advantage of writing a compiler is: “you need to write embedded software to run on a Marvel PX A310 processor”.
 
-You need to create a programming language that generates the assembly to run on this type of processor. Or use an existent compiler to execute Ccode on it.
+You need to create a programming language that generates the assembly to run on this type of processor. Or build a `C` compiler to run on it.
 
 ## Interpreted programming languages
-The interpreted languages ​​run in any environment (if supported), just install. Ruby has several interpreters, you may have heard of them: MRI, JRuby, RubyMotion, and so on.
+The interpreted languages ​​run in any environment (if supported), just install. Ruby has several interpreters (some them are compilers), you may have heard of them: MRI, JRuby, RubyMotion, and so on. Official interpreter is [ruby/ruby](https://github.com/ruby/ruby).
 
-They all use Ruby syntax and run in different environments. The code is interpreted for the desired platform.
+They all use Ruby syntax and run in different environments. The code is interpreted (or compiled) for the desired platform.
 
 ## C written in C
 And that story of a good compiler/interpreter must be written in the language itself? It’s awesome! A language is interpreted first and then compiled. Take C for example, before it was an interpreter, and using this interpreter, the compiler was written.
@@ -74,15 +74,15 @@ In the following posts, we will write an interpreter. Perform mathematical opera
 
 **Set a starting point for your language.** I like ruby-like (optional parentheses) and explicit expressions (1 + 2 + 3 + 4). If you prefer a lisp style, you can use a polish notation. Think about the details, describe examples of operations you want to perform.
 
-If you want to get your hands dirty now, I suggest studying the tiny-lang source code and translating it into Another language for non-English learners — Mandarim, maybe!?
+If you want to get your hands dirty now, I suggest studying the tiny-lang source code and translating it into another language for non-English learners — Mandarim, maybe!?
 
 Helping those who are just starting to program and don’t have the minimum knowledge in English would be a great idea.
 
-Find the location of the lexemes for tokens and change the tokens that match: if , print , end , and so on.
+Find the location of the lexemes for tokens and change the tokens that match: `if`, `print`, `end`, and so on.
 
 ## Let's built it
 
-In the next post, we will build flow management and writing a simple tokenizer. For now, you can learn a little bit more about how assembly works and try to execute this simple one-file compiler.
+In the next post, we will build flow management and writing a simple tokenizer. For now, you can learn a little bit more about how assembly works and try to execute the [Kompilator project](https://github.com/vgsantoniazzi/kompilator). *Kompilator* stands for compiler in Polish. Since is a polish notation compiler, I just find the name funny.
 
 
 

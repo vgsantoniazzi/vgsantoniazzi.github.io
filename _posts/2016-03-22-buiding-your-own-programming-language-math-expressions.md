@@ -26,12 +26,10 @@ We have to do the [syntactic analysis](https://en.wikipedia.org/wiki/Parsing) of
 Terms are multiplications and divisions, expressions are sums and subtractions and factors are terms and expressions within parentheses.
 Recursion should start with the lowest value operations until reaching the highest value. In other words: **When we have a mathematical expression (to be analyzed), we must follow the flow**:
 
-- 1. Execute expression (addition and subtraction), if any, return the value.
-- 2. We execute a factor (parentheses), if it exists, we return the value.
-  - 2.1. We execute an expression (addition and subtraction), if it exists, we return the value.
-  - 2.2. We execute a factor (parentheses), if it exists, we return the value.
-  - 2.3. We execute a term (multiplication and division), if it exists, we return the value.
-- 3. We execute a term (multiplication and division), if it exists, we return the value.
+- 1. Before executing a expression (addition and subtraction), search for terms. After the terms are processed, process the expression.
+- 3. Before executing a term (multiplication and division), search for factors. After factors are processed, process the term.
+- 2. Execute a factor (parentheses)
+  - 2.1. There is nothing to do here, just call first point and use it recursively.
 
 This value, it always starts from zero and is increased, decreased, multiplied and divided according to the operation we are carrying out.
 
