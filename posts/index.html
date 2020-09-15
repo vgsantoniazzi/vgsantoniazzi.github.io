@@ -4,18 +4,29 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
+    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     <article class="post">
       <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
       </a>
       <div>
-        <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+        <p class="post_date">
+          {% if year != "9999" %}
+            {{ post.date | date: "%B %e, %Y" }}
+          {% endif %}
+         </p>
       </div>
       <div class="entry">
-        {{ post.excerpt }}
+        {% if year == "9999" %}
+          {{ post.content }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% if year != "9999" %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% endif %}
     </article>
   {% endfor %}
 
