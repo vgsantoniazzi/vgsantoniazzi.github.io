@@ -91,3 +91,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+feed:
+  posts_limit: 10
+  tags:
+    except:
+      - future

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why small posts?
-categories: [about, 3 mins rule, focused]
+categories: [about, 3 mins rule, focused, future]
 ---
 
 I like small posts, and I prefer to do some research about what I am reading.
