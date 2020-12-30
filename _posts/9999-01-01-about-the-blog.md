@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why small posts?
+draft: true
 categories: [about, 3 mins rule, focused, future]
 ---
 
