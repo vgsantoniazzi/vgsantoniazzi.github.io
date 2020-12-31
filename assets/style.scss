@@ -243,12 +243,16 @@ p > img {
 }
 
 @media only screen and (min-width: 768px) {
-  .picture {
+  .cover, .picture {
     float: left;
   }
 
   .about {
     margin-left: 250px;
+  }
+
+  .book-description {
+    margin-left: 390px;
   }
 }
 

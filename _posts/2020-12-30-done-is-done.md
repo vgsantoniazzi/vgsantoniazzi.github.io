@@ -14,4 +14,4 @@ Done is done.
 
 The year is not done yet.
 
-![Done](http://vgsantoniazzi.com/images/posts/2020-12-30-done-is-done/sketch.png)
+![Done]({{ site.baseurl }}/images/posts/2020-12-30-done-is-done/sketch.png)

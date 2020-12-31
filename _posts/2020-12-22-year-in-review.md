@@ -39,7 +39,7 @@ Let's go to see what I am proud of what I've accomplished this year.
 
 At Code Climate, I was able to get excellent metrics this year!
 
-![Velocity Metrics](http://vgsantoniazzi.com/images/posts/2020-12-22-year-in-review/2020-velocity-metrics.png)
+![Velocity Metrics]({{ site.baseurl  }}/images/posts/2020-12-22-year-in-review/2020-velocity-metrics.png)
 
 Did you see my rework rate? It's because I prefer to refactor my code after 100% working and with tests, exactly like TDD specification.
 
