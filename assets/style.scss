@@ -14,6 +14,7 @@
 /**************/
 
 @import url('https://fonts.googleapis.com/css2?family=Scope+One&family=Titillium+Web:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
   font-size: 100%;
@@ -38,11 +39,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $darkerGray;
-
+  color: $gray;
+  font-weight: 600;
   line-height: 1.8;
   margin: 1em 0 15px;
   padding: 0;
+  font-family: 'Bebas Neue', cursive;
 
   @include mobile {
     line-height: 1.4;
@@ -303,6 +305,7 @@ p > img {
 
 .site-name {
   margin: 0;
+  font-family: "Scope One";
   color: $darkGray;
   cursor: pointer;
   font-weight: 300;
@@ -442,17 +445,20 @@ body:after {
 }
 
 .post h1 {
-  font-weight: 500;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
 }
 
 .author_title{
-  color: #939aa1;
+    color: #939aa1;
+    font-size: 90%;
+    margin-top: -20px;
 }
 
 .post_date{
-  color: #939aa1;
+    color: #939aa1;
+    font-size: 90%;
+    margin-top: -20px;
 }
 
 .cd-container a {
