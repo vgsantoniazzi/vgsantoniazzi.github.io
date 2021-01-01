@@ -9,7 +9,7 @@ permalink: /book/
 
 <div class="book-description">
   <h2>Curiosity and Organic Learning</h2>
-  <p>Hey! I’m an writer aspirant. I resolved this year write a book about curiosity, learning and software engineering</p>
+  <p>Hey! I’m an writer aspirant. I decided this year write a book about curiosity, learning and software engineering</p>
 
   <p>This book is about myself and some experiences that I had. This is work in progress I would love to receive your feedback! ❤️</p>
 
