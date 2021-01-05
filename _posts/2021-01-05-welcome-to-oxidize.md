@@ -50,3 +50,5 @@ What I have in mind for this repository
 ## Contributing
 
 This is an open source project, you can help me to accomplish this. I would love to receive your input!
+
+![Done]({{ site.baseurl }}/images/posts/2021-01-05-welcome-to-oxidize/os.png)
