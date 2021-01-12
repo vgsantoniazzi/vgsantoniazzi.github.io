@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Done is Done
-categories: [retro definition]
+categories: [retrospective, behavior]
 ---
 
 Done is not waiting QA;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building your own programming language: Control Structures"
-categories: [compilers, interpreters, programming-languages, c, c++]
+categories: [programming language, open source]
 ---
 
 

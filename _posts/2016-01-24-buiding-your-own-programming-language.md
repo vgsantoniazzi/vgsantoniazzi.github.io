@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building your own programming language
-categories: [compilers, interpreters, programming-languages, c, c++]
+categories: [programming language, open source]
 ---
 
 When I started in software development, I gathered a huge amount of links, books, and articles to study, but I was never able to succeed.
@@ -83,7 +83,3 @@ Find the location of the lexemes for tokens and change the tokens that match: `i
 ## Let's built it
 
 In the next post, we will build flow management and writing a simple tokenizer. For now, you can learn a little bit more about how assembly works and try to execute the [Kompilator project](https://github.com/vgsantoniazzi/kompilator). *Kompilator* stands for compiler in Polish. Since is a polish notation compiler, I just find the name funny.
-
-
-
-

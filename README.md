@@ -2,15 +2,18 @@
 
 [vgsantoniazzi.com](http://vgsantoniazzi.com)
 
+## Tags
+
+- [open source](https://vgsantoniazzi.com/categories/#open%20source)
+- [programming language](https://vgsantoniazzi.com/categories/#programming%2language)
+- [operating system](https://vgsantoniazzi.com/categories/#operating%2system)
+- [retrospectives](https://vgsantoniazzi.com/categories/#retrospectives)
+- [code review](https://vgsantoniazzi.com/categories/#code%2review)
+- [behavior](https://vgsantoniazzi.com/categories/#behavior)
+
 ## Contributing
 
 I :heart: Open source!
-
-Before sending a pull request: Please, format the source code
-
-```
-bin/format
-```
 
 [Follow github guides for forking a project](https://guides.github.com/activities/forking/)
 

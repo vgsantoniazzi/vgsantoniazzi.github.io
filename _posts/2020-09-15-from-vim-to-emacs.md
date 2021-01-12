@@ -1,21 +1,9 @@
 ---
 layout: post
 title: Moving from Vim to Emacs
-categories: [compilers, interpreters, programming-languages]
----
+categories: [programming language]
 
-I was using Vim for about seven years. Did it on the terminal, did it with Neovim, inside VScode (which is pretty nice). I tried to build all my shortcuts vi-like: Switch browser tabs, terminal tabs, inside slack, etc. Two months ago, after reading a thread in the HackThursday Slack, I switched to Emacs. They said: Emacs will be your last editor. I give a shot
-
-> This post was written using Emacs in Org-mode.
-
-## Challange
-
-A real challenge was about not having different Visual / Edit mode. Previously, the most used key was `ESC` and `i`, now it is `CTRL`. Doing this with a pleasant and ergonomic keyboard, like Ergodox, is a plus. Regular keyboards are a way difficult. But you will be used to it.
-
-## How do I start?
-You will not find so much research on "How do I start using emacs?". Instead of it, use the **Emacs Tutorial**, do it more than once or twice. Use it by default in the App, but configure your git to open with `-nw` (no-window) to build useful commit messages.
-
-Install some useful plugins, learn with them, and [build your own dotfiles](https://www.atlassian.com/git/tutorials/dotfiles), if you did not yet. Change the theme; if you don't like the default ones, do some research.
+build your own dotfiles](https://www.atlassian.com/git/tutorials/dotfiles), if you did not yet. Change the theme; if you don't like the default ones, do some research.
 
 ## Lisp configuration
 If you are not familiar with Lisp, you will be. The editor's best part is that it is fully configurable. You will learn and enjoy Lisp.

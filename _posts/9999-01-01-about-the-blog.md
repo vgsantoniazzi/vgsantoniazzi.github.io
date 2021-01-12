@@ -2,7 +2,7 @@
 layout: post
 title: Why small posts?
 draft: true
-categories: [about, 3 mins rule, focused, future]
+categories: [behavior]
 ---
 
 I like small posts, and I prefer to do some research about what I am reading.

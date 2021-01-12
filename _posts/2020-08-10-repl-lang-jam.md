@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Repl.it Language Jam
-categories: [compilers, interpreters, programming-languages]
+categories: [programming language]
 ---
 
 This month, a new jam was open. The [Repl.it Language Jam](https://blog.repl.it/langjam).

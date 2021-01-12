@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2020 Year in review
-categories: [retro]
+categories: [retrospective]
 ---
 
 I separated my year into two major parts, Goals and topics. Goals are the tasks that I wrote in January 2020 to accomplish this year. I've written 3 goals.

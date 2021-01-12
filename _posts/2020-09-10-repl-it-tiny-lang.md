@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to teach programming through Repl.it
-categories: [compilers, interpreters, programming-languages]
+categories: [programming language]
 ---
 
 I posted a month ago, a blog post about [Repl.it Lang Jam](https://repl.it/site/jam), and we created a team there https://repl.it/@tinylang.
